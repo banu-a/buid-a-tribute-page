@@ -1,0 +1,111 @@
+@media screen, (min-width:300px) and (max-width:600px){
+*{
+	background-color:#464646;
+	color:whitesmoke;
+	font-family:Black Arial;
+	margin:0px auto;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#title{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	display:block;
+}
+
+
+
+#board{
+	font-size:20px;
+	border:5px solid #606060;
+	background-color:#7F7E7E;
+	text-transform:capitalize;
+	text-align:center;
+	padding:12px 20px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	display:block;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#img-div, #image, #image-caption{
+	margin:0px auto;
+	position:relative;
+	display:block;
+	width:300px;
+	height:380px;
+	text-align:center;
+	padding:20px;
+}
+
+/*position:relative; ortalanmasını sağlıyor*/
+/* image ve onu saran div boyutu width ve height birbiri
+ile uyumlu olmaalıdır yoksa ortalayamayız*/
+
+#image{
+	width:300px;
+	height:300px;
+	margin:0px auto;
+	position:relative;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+}
+
+#tribute-page{
+	padding-top:20px;
+}
+
+h2{
+	margin-left:50px;
+}
+
+#tribute-page .list li{
+	list-style-type:none;
+	list-style-position:inside;
+	font-size:18px;
+	line-height:1.80em;
+}
+
+#tribute-page li{
+	text-align:left;
+}
+
+#tribute-info{
+	border:5px solid #606060;
+	background-color:#7F7E7E;
+	text-transform:capitalize;
+	font-size:18px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#tribute-link{
+	border:5px solid #606060;
+	background-color:#7F7E7E;
+	text-transform:capitalize;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+
+#tribute-link a{
+		text-decoration:none;
+}
+
+footer{
+	border:5px solid #606060;
+	background-color:#7F7E7E;
+	font-size:18px;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+}
