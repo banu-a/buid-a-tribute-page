@@ -1,0 +1,149 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+}
+
+#main {
+  background-color: #262626;
+  margin: 0;
+  padding: 0;
+}
+
+#main #board {
+  font-size: 1.2em;
+  border: 10px solid whitesmoke;
+  padding: 10px;
+  display: block;
+  top: 15px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  position: relative;
+}
+
+@media screen and (max-device-width: 300px) {
+  #main #board {
+    width: 250px;
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+  #main #board {
+    width: 550px;
+  }
+}
+
+#main #image {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0px auto;
+  display: block;
+  margin-top: 25px;
+  -webkit-box-shadow: 4px 4px 4px lightgray;
+  -moz-box-shadow: 4px 4px 4px lightgray;
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+@media screen and (max-device-width: 300px) {
+  #main #image {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+#main #img-caption {
+  display: block;
+  margin: 0px auto;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#tribute-page {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 100% !important;
+  margin-top: 20px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media screen and (max-device-width: 300px) {
+  #tribute-page {
+    width: 300px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+  #tribute-page {
+    width: 550px;
+    padding: 5px;
+  }
+}
+
+#tribute-page ul {
+  list-style: none;
+}
+
+#tribute-page #tribute-info {
+  border: 5px solid whitesmoke;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (max-device-width: 300px) {
+  #tribute-page #tribute-info {
+    width: 300px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+  #tribute-page #tribute-info {
+    width: 550px;
+    padding: 5px;
+  }
+}
+
+#tribute-page #tribute-link {
+  margin-top: 10px;
+}
+
+#tribute-page #tribute-link a {
+  text-decoration: none;
+}
+
+#tribute-page #ends {
+  border: 5px solid whitesmoke !important;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (max-device-width: 300px) {
+  #tribute-page #ends {
+    width: 300px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-device-width: 600px) {
+  #tribute-page #ends {
+    width: 550px;
+    padding: 5px;
+  }
+}
+
+#tribute-page #ends #links {
+  text-decoration: none;
+}
